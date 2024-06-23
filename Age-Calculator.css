@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #264638;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #407057; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    color: white;
+    margin: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #c2be84; 
+}
+
+p {
+    margin-bottom: 20px;
+    color: #c2be84; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #bbab7b;
+}
+
+input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #221f1f;
+    background: #d0dbce;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #264638;
+    /* color: #46bd8e; */
+    color: #c2be84; 
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #326850;
+    /* background-color: #79bc7b; */
+    /* background-color: #DAD3BE; */
+}
+
+#error-message {
+    color: rgb(172, 36, 36);
+    margin-top: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #10100f;
+}
+
+#zodiac-sign {
+    color: #272c2a;
+    margin-top: 20px;
+}
+
+#life-expectancy {
+    color: #3e1b1b;
+    margin-top: 20px;
+}
+
+#next-birthday {
+    
+    color: #080808;
+    margin-top: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: -15px;
+    width: 100%;
+    /* background-color: #254336; */
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+}
